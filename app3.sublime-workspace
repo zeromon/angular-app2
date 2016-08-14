@@ -1,0 +1,729 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ind",
+				"indi	(MainController.js)"
+			],
+			[
+				"conta",
+				"containerSlide	(directive.js)"
+			],
+			[
+				"da",
+				"dataKu"
+			],
+			[
+				"sli",
+				"slideTo"
+			],
+			[
+				"an",
+				"anu"
+			],
+			[
+				"a",
+				"attr"
+			],
+			[
+				"ng-rep",
+				"ng-repeat	AngularJS"
+			],
+			[
+				"$",
+				"$first"
+			],
+			[
+				"ng-repe",
+				"ng-repeat	AngularJS"
+			],
+			[
+				"re",
+				"restrict"
+			],
+			[
+				"dit",
+				"verbose_directive	AngularJS"
+			],
+			[
+				"co",
+				"controllModule"
+			],
+			[
+				"ng-re",
+				"ng-repeat-start	AngularJS"
+			],
+			[
+				"ac",
+				"active"
+			],
+			[
+				"data",
+				"dataKu"
+			],
+			[
+				"dat",
+				"dataKu	(MainController.js)"
+			],
+			[
+				"get",
+				"getData"
+			],
+			[
+				"fa",
+				"factory	AngularJS"
+			],
+			[
+				"con",
+				"controllModule"
+			],
+			[
+				"ng",
+				"ng-click	AngularJS"
+			],
+			[
+				"ang",
+				"angka"
+			],
+			[
+				"ng-c",
+				"ng-controller	AngularJS"
+			],
+			[
+				"ma",
+				"MainController.js"
+			],
+			[
+				"mod",
+				"module	(app.js)"
+			],
+			[
+				"ap",
+				"AppModuleName"
+			],
+			[
+				"A",
+				"Articles"
+			],
+			[
+				"err",
+				"errorResponse"
+			],
+			[
+				"ti",
+				"title"
+			],
+			[
+				"fu",
+				"fun	Function"
+			],
+			[
+				"sa",
+				"status"
+			],
+			[
+				"cre",
+				"creator"
+			],
+			[
+				"er",
+				"errors"
+			],
+			[
+				"tr",
+				"trim"
+			],
+			[
+				"rg",
+				"rgb()"
+			],
+			[
+				"r",
+				"rgba()"
+			],
+			[
+				"lin",
+				"outline-color"
+			],
+			[
+				"h",
+				"href	Attr"
+			],
+			[
+				"$lo",
+				"$locationProvider	AngularJS"
+			],
+			[
+				"$loa",
+				"$locationProvider	AngularJS(DI)"
+			],
+			[
+				"us",
+				"users"
+			],
+			[
+				"use",
+				"users	(application.js)"
+			],
+			[
+				"$rou",
+				"$routeProvider	AngularJS"
+			],
+			[
+				"$loca",
+				"$locationProvider"
+			],
+			[
+				"sc",
+				"src	Attr"
+			],
+			[
+				"req",
+				"require"
+			],
+			[
+				"ne",
+				"next"
+			],
+			[
+				"t",
+				"this"
+			],
+			[
+				"cr",
+				"crypto"
+			],
+			[
+				"Us",
+				"UserSchema"
+			],
+			[
+				"f",
+				"f	Anonymous Function"
+			],
+			[
+				"exp",
+				"exports	(express.js)"
+			],
+			[
+				"mo",
+				"mongoose	(package.json)"
+			],
+			[
+				"pa",
+				"passport"
+			],
+			[
+				"st",
+				"String"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"Use",
+				"UserSchema"
+			],
+			[
+				"sp",
+				"splitName"
+			],
+			[
+				"fn",
+				"function	(express.js)"
+			],
+			[
+				"ex",
+				"exports	(express.js)"
+			],
+			[
+				"ses",
+				"session	(package.json)"
+			],
+			[
+				"se",
+				"session	(package.json)"
+			],
+			[
+				"al",
+				"alt	Attr"
+			],
+			[
+				"pro",
+				"process"
+			],
+			[
+				"met",
+				"methodOverride"
+			],
+			[
+				"bod",
+				"bodyParser"
+			],
+			[
+				"com",
+				"compress"
+			],
+			[
+				"pr",
+				"process"
+			],
+			[
+				"ng-cl",
+				"ng-click	AngularJS"
+			],
+			[
+				"$sc",
+				"$scope	AngularJS(DI)"
+			],
+			[
+				"te",
+				"templateUrl"
+			],
+			[
+				"$ro",
+				"$routeProvider"
+			],
+			[
+				"god",
+				"goodbyeBroo"
+			],
+			[
+				"lo",
+				"logger"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"$s",
+				"$scope	AngularJS(DI)"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": " <!-- panel carousel repeat-->\n            <div ng-repeat=\"d in data\">\n                <div class=\"panel panel-default\">\n                    <div class=\"panel-body\">\n                        <div class=\"media\">\n                            <div class=\"media-left\">\n                                <a href=\"#\">\n                                    <img class=\"media-object\" src=\"image/image-64x64.svg\" alt=\"...\">\n                                </a>\n                            </div>\n                            <div class=\"media-body\">\n                                <h4 class=\"media-heading\" ng-bind=\"d.username\"></h4>\n                                <div id=\"carousel-example\" class=\"carousel slide\" data-ride=\"carousel\">\n                                    <ol class=\"carousel-indicators\">\n                                        <li slide ng-repeat=\"kata in d.posting\" data-target=\"#carousel-example\" data-slide-to=\"{{$index}}\" ng-class=\"{'active':$first}\"></li>\n                                    </ol>\n                                    <!-- Wrapper for slides -->\n                                    <div class=\"row\">\n                                        <div class=\"col-xs-offset-3 col-xs-6\">\n                                            <div class=\"carousel-inner\">\n                                                <div class=\"item\" ng-class=\"{'active':$first}\" ng-repeat=\"conten in d.posting\">\n                                                    <div class=\"carousel-content\">\n                                                        <div>\n                                                            <h1 ng-bind=\"conten.title\"></h1>\n                                                            <p ng-bind=\"conten.isi\"></p>\n                                                        </div>\n                                                    </div>\n                                                </div>\n                                            </div>\n                                        </div>\n                                    </div>\n                                    <!-- Controls -->\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <!-- close panel carousel -->",
+			"settings":
+			{
+				"buffer_size": 2320,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "script/controller/MainController.js",
+			"settings":
+			{
+				"buffer_size": 2431,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "directive/directive.js",
+			"settings":
+			{
+				"buffer_size": 392,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "page/beranda.html",
+			"settings":
+			{
+				"buffer_size": 4681,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 338.0,
+		"last_filter": "pa",
+		"selected_items":
+		[
+			[
+				"pa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 504.0
+	},
+	"console":
+	{
+		"height": 153.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/var/www/html/angular/app3",
+		"/var/www/html/angular/app3/directive",
+		"/var/www/html/angular/app3/page"
+	],
+	"file_history":
+	[
+		"/var/www/html/angular/app3/index.html",
+		"/var/www/html/angular/app3/directive/directive.js",
+		"/var/www/html/angular/app3/page/beranda.html",
+		"/home/guest/web/angular-app/app1/index.html",
+		"/home/guest/web/angular-app/app1/script/controller/MainController.js",
+		"/var/www/html/angular/app3/script/controller/MainController.js",
+		"/home/guest/web/angular-app/app1/css/styleku.css",
+		"/home/guest/web/angular-app/app1/script/app.js",
+		"/home/guest/web/angular-app/app1/server.js",
+		"/home/guest/web/angular-app/app1/page/beranda.html",
+		"/home/guest/web/angular-app/app1/page/page2.html",
+		"/home/guest/web/mean/project1/app/models/article.server.model.js",
+		"/home/guest/web/mean/project1/public/articles/controllers/articles.client.controller.js",
+		"/home/guest/web/mean/project1/app/routes/articles.server.routes.js",
+		"/home/guest/web/mean/project1/app/views/index.ejs",
+		"/var/www/html/angular/app2/index.html",
+		"/home/guest/web/openshift/nodejs-ex/views/index.html",
+		"/home/guest/web/heroku/node-js-getting-started/index.js",
+		"/home/guest/web/mean/project1/public/articles/views/list-articles.client.view.html",
+		"/home/guest/web/mean/project1/app/controllers/articles.server.controller.js",
+		"/home/guest/web/mean/project1/public/articles/views/edit-article.client.view.html",
+		"/home/guest/web/mean/project1/public/articles/views/view-article.client.view.html",
+		"/home/guest/web/mean/project1/public/example/controllers/example.client.controller.js",
+		"/home/guest/web/mean/project1/public/example/views/example.client.view.html",
+		"/home/guest/web/mean/project1/config/express.js",
+		"/home/guest/web/mean/project1/public/application.js",
+		"/home/guest/web/mean/project1/public/articles/config/articles.client.routes.js",
+		"/home/guest/web/mean/project1/public/articles/controllers/list-articles.client.view.html",
+		"/home/guest/web/mean/project1/public/articles/views/create-article.client.view.html",
+		"/home/guest/web/mean/project1/public/articles/articles.client.module.js",
+		"/home/guest/web/mean/project1/public/articles/services/articles.client.service.js",
+		"/home/guest/web/mean/project1/bower.json",
+		"/home/guest/web/mean/project1/app/routes/index.server.routes.js",
+		"/home/guest/web/mean/project1/app/controllers/users.server.controller.js",
+		"/home/guest/web/mean/project1/app/controllers/index.server.controller.js",
+		"/home/guest/web/mean/project1/config/mongoose.js",
+		"/home/guest/web/mean/project1/app/models/user.server.model.js",
+		"/var/www/html/angular/app3/.htaccess",
+		"/var/www/html/angular/app3/script/route.js",
+		"/home/guest/web/mean/project1/public/users/services/authentication.client.service.js",
+		"/home/guest/web/mean/project1/app/routes/users.server.routes.js",
+		"/home/guest/web/mean/project1/public/puro/puro.client.module.js",
+		"/home/guest/web/mean/project1/public/puro/services/authentication.client.service.js",
+		"/home/guest/web/mean/project1/public/users/users.client.module.js",
+		"/home/guest/web/mean/project1/public/example/example.client.module.js",
+		"/home/guest/web/mean/project1/.bowerrc",
+		"/media/guest/TOSHIBA/index.html",
+		"/home/guest/web/mean/project1/config/strategies/local.js",
+		"/home/guest/web/mean/project1/package.json",
+		"/home/guest/web/mean/project1/config/passport.js",
+		"/home/guest/web/mean/project1/app/views/signin.ejs",
+		"/home/guest/web/mean/project1/app/views/signup.ejs",
+		"/home/guest/web/mean/project1/server.js",
+		"/home/guest/web/mean/project1/config/env/development.js",
+		"/home/guest/web/mean/project1/config/config.js",
+		"/var/www/html/angular/app3/page/navbar.html",
+		"/var/www/html/angular/app3/page/profil.html",
+		"/var/www/html/angular/app3/script/controller/ProfilController.js",
+		"/home/guest/web/index.html",
+		"/var/www/html/jsonp/data.php",
+		"/var/www/html/angular/app3/script/app.js",
+		"/home/guest/web/mean/project1/app/controllers/controller.js",
+		"/home/guest/web/mean/project1/cnofig/express.js",
+		"/home/guest/web/mean/project1/index.server.routes.js",
+		"/home/guest/web/mean/server.js",
+		"/home/guest/web/mean/package.json",
+		"/home/guest/web/maven/package.json",
+		"/home/guest/web/application.js",
+		"/home/guest/web/mongotutorial.txt",
+		"/home/guest/web/coba.html",
+		"/home/guest/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/guest/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/guest/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/guest/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/var/www/html/angular/app1/index.html",
+		"/var/www/html/profid/application/views/front/home/template_home/home.php",
+		"/var/www/html/profid/application/views/front/home/template_home/header.php",
+		"/var/www/html/angular/index.html",
+		"/home/guest/index.html",
+		"/home/guest/web/test.js",
+		"/home/guest/Documents/metode_numerik/non_linear/secant2.cpp",
+		"/home/guest/Documents/coba.html",
+		"/home/guest/Documents/metode_numerik/non_linear/secant.cpp",
+		"/home/guest/opengl/coba1.cpp",
+		"/home/guest/Documents/metode_numerik/regular_falsimod.cpp",
+		"/home/guest/Documents/metode_numerik/beda_tengah.cpp",
+		"/home/guest/Documents/metode_numerik/titik_tengah.cpp",
+		"/etc/apache2/apache2.conf",
+		"/home/guest/opengl/cth4_2D.cpp",
+		"/home/guest/opengl/cth3Window.cpp",
+		"/home/guest/opengl/cth2KeyBoard.cpp",
+		"/home/guest/opengl/cth1.cpp",
+		"/home/guest/opengl/segitiga.cpp",
+		"/home/guest/opengl/triangle.cpp",
+		"/home/guest/Documents/metode_numerik/integral/titik_tengah.cpp",
+		"/home/guest/Documents/metode_numerik/integral/persegi_p.cpp"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"				{{",
+			"src",
+			"$routeProvider",
+			"findUniqueUsername",
+			"authenticate",
+			"=\"...\"",
+			"ctrl+spa",
+			"auto"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2320,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2320,
+								2320
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 154.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "script/controller/MainController.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2431,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2378,
+								2378
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1596.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "directive/directive.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 392,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								356,
+								356
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "page/beranda.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4681,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2927,
+								2927
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 798.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "app3.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

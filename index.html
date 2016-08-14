@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="App1">
+
+<head>
+    <base href="http://localhost/angular/app3/">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Test</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <style>
+    .carousel-content {
+        color: black;
+        align-items: center;
+    }
+    
+    .carousel-indicators li {
+        display: inline-block;
+        text-indent: 0;
+        cursor: pointer;
+        border: none;
+        background-color: rgba( 51, 255, 87 ,0.5);
+    }
+    
+    .carousel-indicators .active {
+    	border: none;
+        background-color: #33ff57;
+    }
+    </style>
+    <!--[if it IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+	<![endif]-->
+    <script src="script/jquery.min.js"></script>
+    <script src="angular-lib/angular.min.js"></script>
+</head>
+
+<body>
+    <navigasi></navigasi>
+    <ng-view></ng-view>
+    <script src="script/app.js"></script>
+    <script src="script/route.js"></script>
+    <script src="directive/directive.js"></script>
+    <script src="script/controller/MainController.js"></script>
+    <script src="angular-lib/angular-route.min.js"></script>
+    <script src="script/bootstrap.min.js"></script>
+</body>
+
+</html>
